@@ -1,22 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>GİRİŞ SAYFASI</title>
-    <link rel="stylesheet" href="proje.css">
+    
+    <title>giriş sayfası</title>
+    <link rel="stylesheet" href="girissayfasicss.css">
 </head>
 <body>
-    <div class="ho">
     <form action="anasayfasi.html" method="post">
-        <p class="p1"><h4>Lütfen Emailiniz ve Öğrenci Nomaranızı Giriniz</h4></p>
-        <label>Email</label><br>
-        <input type="email" name="email" value="hozaifaa883@gmail.com"><br><br>
-        <label>Öğrenci No</label><br>
-        <input type="text" name="öğrenci no" value="G211210572"><br><br>
-        <input type="submit" value="giriş yap">
-        <input type="reset" value="temizle">
+    <div class="form">
+        <div class="title">HOŞ GELDİNİZ</div>
+        <div class="subtitle">Lütfen Adınız ve Öğrenci Nomaranızı Giriniz.</div>
+        <br>
+        <div class="input-container">
+            <input type="text" id="AD" class="input" placeholder=" " value="HOZAIFA ALKHEDER">
+            <div class="cut"></div>
+            <label for="ad" class="placeholder">AD SOYAD</label>
+        </div>
+        <br>
+        <div class="input-container">
+            <input type="text" id="ogrencino" class="input" placeholder=" " value="G211210572">
+            <div class="cut"></div>
+            <label for="ogrencino" class="placeholder">Öğrenci NO</label>
 
-    </form>
+        </div>
+        <button type="text" class="sumbit">GİRİŞ YAP</button>
     </div>
+    </form>
 </body>
 </html>
