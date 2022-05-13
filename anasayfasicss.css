@@ -47,7 +47,7 @@ header {
 section {
   width: 100%;
   display: inline-block;
-  background: #ccc;
+  background: rgb(27, 27, 27);
   height: 60vh;
   text-align: center;
   font-size: 22px;
@@ -139,4 +139,34 @@ section {
   .footer-distributed .footer-left p.footer-links {
     line-height: 1.8;
   }
+}
+
+
+
+.sonsbrother{
+  color: #d1d7da;
+  padding: 200px 20%;
+  background-image: url(https://wallpaper.dog/large/17012063.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.sonsbrother .kisa-mesaj{
+  text-transform: capitalize;
+  text-shadow: #CCF2F4 1px 1px;
+}
+.sonsbrother a{
+  display: block;
+  width: 110px;
+}
+.sonsbrother .btn-outline-primary{
+  background-color: #A4EBF3;
+  color: #aaaaaa;
+  margin: 20px 0px;
+  padding: 3px;
+  transition: all 0.2s linear;
+}
+.sonsbrother .btn-outline-primary:hover{
+  background-color: #aaaaaa;
+  color: #A4EBF3;
+  transform: scale(1.2);
 }
