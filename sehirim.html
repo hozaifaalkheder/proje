@@ -9,6 +9,31 @@
     <div class="sehir">
         <h1>SURİYEYE HOŞ GELDİNİZ</h1>
         <hr>
+
+        <div class="slider">
+            
+            <img src="../PROJE/foto/640px-Syrian_National_flag.svg.png" id="first-img">
+        </div>
+        <script>
+            var images = [
+                "../PROJE/foto/10.png",
+                "../PROJE/foto/1.jpg",
+                "../PROJE/foto/2.jpg",
+                "../PROJE/foto/7.png",
+                
+
+            ];
+            var i=0;
+            function slide() {
+                document.getElementById("first-img").src =images[i];
+                if(i<(images.length-1))
+                i++;
+                else
+                i=0;
+            }
+            setInterval(slide,2000)
+        </script>
+
     </div>
     <div class="color">
         <h2>Suriye, Asya kıtasının kuzeybatı tarafında yer alan, kuzeyde Türkiye, doğuda Irak, 
@@ -48,31 +73,8 @@
                 <img src="../PROJE/foto/220881Image1.jpg" alt="" width="660" height="526">
             </a>
         </h3>
-        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftr.m.wikipedia.org%2Fwiki%2FDosya%3ASyrian_National_flag.svg&psig=AOvVaw2fb9dC6TUqyYo-TeZSCVcu&ust=1652117453384000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCNCRpaG30PcCFQAAAAAdAAAAABAI">
-            <img src="../PROJE/foto/640px-Syrian_National_flag.svg.png" alt=""  width="660" height="526" >
-        </a>
         
-        <div class="slider">
-            
-            <img src="../PROJE/foto/images1.jpg" id="first-img">
-        </div>
-        <script>
-            var images = [
-                "../PROJE/foto/images1.jpg",
-                "../PROJE/foto/images2.jpg",
-                "../PROJE/foto/images3.jpg",
-                "../PROJE/foto/images4.jpg",
-                "../PROJE/foto/images5.jpg"
-            ];
-            var i=0;
-            function slide() {
-                document.getElementById("first-img").src =images[i];
-                if(i<(images.length-1))
-                i++;
-                else
-                i=0;
-            }
-            setInterval(slide,2000)
-        </script>
+        
+        
 </body>
 </html>
