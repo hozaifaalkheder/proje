@@ -18,22 +18,31 @@ a:link, a:visited {
     text-shadow: 2px 2px 4px #a11414;
     color: rgb(153, 18, 18);
 }
-table {
+/* table {
     border-collapse: collapse;
     width: 50%;
+} */
+
+/* tr:nth-child(even) {
+  background-color: #f2f2f2;
+} */
+.me {
+  padding-left: 400px;
+  padding-inline-end: 20px;
+  float: right;
+  background-size: cover;
 }
 td, th {
-  border: 1px solid #ddd;
+  border: 0px solid #ddd;
   padding: 8px;
+  color: #ddd;
 }
 th {
   background-color: #b31515;
   color: #ddd;
   text-align: left;
 }
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
+
 tr:hover {
   background-color: #ddd;
   color: white;
